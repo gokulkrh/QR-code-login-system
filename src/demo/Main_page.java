@@ -323,8 +323,8 @@ public class Main_page	{
 		properties.put("mail.smtp.host", "smtp.gmail.com");
 		properties.put("mail.smtp.port", "587");
 		
-		String sender_email = "gokulkrh@gmail.com";
-		String email_password = "jngckohplnfdlvie";
+		String sender_email = "EMAIL";
+		String email_password = "PASSWORD";
 		
 		Session session = Session.getInstance(properties, new Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
